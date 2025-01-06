@@ -60,7 +60,7 @@
     ```
 - Select tier based models and GPU memory:
     ```bash
-    aios-cli hive select-tier 5
+    aios-cli hive select-tier 3
     ```
 
 
