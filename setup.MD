@@ -27,7 +27,7 @@
 ## Node Setup
 - Install necessary dependencies:
     ```bash
-    apt update && apt install -y git curl build-essential pkg-config libssl-dev git-all wget && rm -rf /var/lib/apt/lists/*
+    sudo apt update && sudo apt install -y git curl build-essential pkg-config libssl-dev git-all wget screen && sudo rm -rf /var/lib/apt/lists/*
     ```
 - Install aiOS cli:
     ```bash
@@ -70,3 +70,16 @@
     ```bash
     aios-cli hive points
     ```
+- To check your current keys:
+    ```bash
+    aios-cli hive whoami
+    ```
+- To check existing screens:
+    ```bash
+    screen -ls
+    ```
+- To reopen a detached screen:
+    ```bash
+    screen -r <screen_name> 
+    ```
+    e.g. ```screen -r hyperspace```
