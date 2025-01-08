@@ -1,5 +1,5 @@
 ## Requirements
-- KVM-based VPS service e.g. [Linode](https://cloud.linode.com/linodes)
+- KVM-based VPS service - recommend [Linode](https://cloud.linode.com/linodes)
 - Termius mobile/desktop app
 - Subscription fee (min $24 if using linode; not charged upfront, but billed hourly)
 - Hyperspace private key
