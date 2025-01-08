@@ -31,7 +31,7 @@
     ```
 - Install aiOS cli:
     ```bash
-    curl https://download.hyper.space/api/install | bash
+    sudo curl https://download.hyper.space/api/install | bash
     ```
 - Start cli in a new screen (background):
     ```bash
